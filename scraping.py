@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 
-def getnews():
+ddef getnews():
     res=requests.get('https://makassar.terkini.id/')
     soup=BeautifulSoup(res.text, 'lxml')
 
